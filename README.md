@@ -13,7 +13,7 @@ Hasta la vista, baby.
 
 Are you able to compromise this Terminator themed machine?
 
-You can follow the official walkthrough for this challenge on the (TryHackMe blog.)[https://blog.tryhackme.com/skynet-writeup/]
+You can follow the official walkthrough for this challenge on the [TryHackMe blog.](https://blog.tryhackme.com/skynet-writeup/)
 
 ### Recon
 
