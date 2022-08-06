@@ -436,3 +436,6 @@ Back-up files in `/var/www/html` based on `cron` job
 *What is the user flag?* 7c[REDACTED]07
 
 *What is the root flag?* 3f[REDACTED]49
+
+This was a fun room. I got a chance to string some techniques together to get access and escalate my privileges. 
+
