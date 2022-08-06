@@ -420,10 +420,19 @@ http://<machine IP>/45[REDACTED]yd/administrator/alerts/alertConfigField.php?url
 
 A reverse shell is caught! Running `whoami` confirms we are the www-data user. We'll have to look around for an escalation vector.
 
-Rev shell as www-data
-search milesdyson directory
-Back-up files in `/var/www/html` based on `cron` job
+We can search the `/home/milesdyson` directory. There is a back-up directory and file that runs as root to back-up the files in `/var/www/html` based on `cron` job. I had to do some looking around to see how to get this to work to my advantage. GTFOBin has notations about `tar` that allow for escalation based on how the program handles `--checkpoints=1` and `--checkpoint-action=exec=<command>`. 
 
+It seems that the `tar` command can pause archiving, run a command, and then continue the job. We can force it to run an escalation command to gain root privileges. Once that is complete we can read the root flag. 
+
+Problem - I can't modify the command as it is owned by root. More research led me to the fact that `tar` will read the file names as the commands. So I just need to create two files with the checkpoint commands. I'll use the attacker web server to again download the `php-reverse-shell.php` file and then force the back-up script to call out for a reverse shell. 
+
+I'll modify the file for a different port so that I don't accidentally get knocked off the target completely if there is an issue. 
+* Modify `php-reverse-shell.php` with new port.
+* Start web server in the same directory. 
+* Start my `nc` listener on the new port.
+* On target go into the `/var/www/html` directory and create the two files. 
+
+The target runs the reverse shell script and calls out. A reverse shell is caught! Running `whoami` shows I am root. Moving into the `/root` directory and reading the `root.txt` file gives me the root flag. 
 
 **Answer the questions below**
 
