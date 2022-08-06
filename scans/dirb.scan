@@ -1,0 +1,158 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.scan
+START_TIME: Thu Jun 16 22:22:45 2022
+URL_BASE: http://10.10.102.21/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.102.21/ ----
+==> DIRECTORY: http://10.10.102.21/admin/
+==> DIRECTORY: http://10.10.102.21/config/
+==> DIRECTORY: http://10.10.102.21/css/
++ http://10.10.102.21/index.html (CODE:200|SIZE:523)
+==> DIRECTORY: http://10.10.102.21/js/
++ http://10.10.102.21/server-status (CODE:403|SIZE:277)
+==> DIRECTORY: http://10.10.102.21/squirrelmail/
+
+---- Entering directory: http://10.10.102.21/admin/ ----
+
+---- Entering directory: http://10.10.102.21/config/ ----
+
+---- Entering directory: http://10.10.102.21/css/ ----
+
+---- Entering directory: http://10.10.102.21/js/ ----
+
+---- Entering directory: http://10.10.102.21/squirrelmail/ ----
++ http://10.10.102.21/squirrelmail/class (CODE:403|SIZE:277)
+==> DIRECTORY: http://10.10.102.21/squirrelmail/config/
++ http://10.10.102.21/squirrelmail/functions (CODE:403|SIZE:277)
++ http://10.10.102.21/squirrelmail/help (CODE:403|SIZE:277)
+==> DIRECTORY: http://10.10.102.21/squirrelmail/images/
++ http://10.10.102.21/squirrelmail/include (CODE:403|SIZE:277)
++ http://10.10.102.21/squirrelmail/index.php (CODE:302|SIZE:0)
++ http://10.10.102.21/squirrelmail/locale (CODE:403|SIZE:277)
+==> DIRECTORY: http://10.10.102.21/squirrelmail/plugins/
+==> DIRECTORY: http://10.10.102.21/squirrelmail/src/
+==> DIRECTORY: http://10.10.102.21/squirrelmail/themes/
+
+---- Entering directory: http://10.10.102.21/squirrelmail/config/ ----
++ http://10.10.102.21/squirrelmail/config/index.php (CODE:302|SIZE:0)
+
+---- Entering directory: http://10.10.102.21/squirrelmail/images/ ----
++ http://10.10.102.21/squirrelmail/images/index.php (CODE:302|SIZE:0)
+
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: COULDNT CONNECT)
+
+-----------------
+END_TIME: Thu Jun 16 23:20:10 2022
+DOWNLOADED: 36738 - FOUND: 10
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.scan
+START_TIME: Fri Jun 17 09:57:01 2022
+URL_BASE: http://10.10.51.24/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.51.24/ ----
+==> DIRECTORY: http://10.10.51.24/admin/
+==> DIRECTORY: http://10.10.51.24/config/
+==> DIRECTORY: http://10.10.51.24/css/
++ http://10.10.51.24/index.html (CODE:200|SIZE:523)
+==> DIRECTORY: http://10.10.51.24/js/
++ http://10.10.51.24/server-status (CODE:403|SIZE:276)
+==> DIRECTORY: http://10.10.51.24/squirrelmail/
+
+---- Entering directory: http://10.10.51.24/admin/ ----
+
+---- Entering directory: http://10.10.51.24/config/ ----
+
+---- Entering directory: http://10.10.51.24/css/ ----
+
+---- Entering directory: http://10.10.51.24/js/ ----
+
+---- Entering directory: http://10.10.51.24/squirrelmail/ ----
++ http://10.10.51.24/squirrelmail/class (CODE:403|SIZE:276)
+==> DIRECTORY: http://10.10.51.24/squirrelmail/config/
++ http://10.10.51.24/squirrelmail/functions (CODE:403|SIZE:276)
++ http://10.10.51.24/squirrelmail/help (CODE:403|SIZE:276)
+==> DIRECTORY: http://10.10.51.24/squirrelmail/images/
++ http://10.10.51.24/squirrelmail/include (CODE:403|SIZE:276)
++ http://10.10.51.24/squirrelmail/index.php (CODE:302|SIZE:0)
++ http://10.10.51.24/squirrelmail/locale (CODE:403|SIZE:276)
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/
+==> DIRECTORY: http://10.10.51.24/squirrelmail/src/
+==> DIRECTORY: http://10.10.51.24/squirrelmail/themes/
+
+---- Entering directory: http://10.10.51.24/squirrelmail/config/ ----
++ http://10.10.51.24/squirrelmail/config/index.php (CODE:302|SIZE:0)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/images/ ----
++ http://10.10.51.24/squirrelmail/images/index.php (CODE:302|SIZE:0)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/ ----
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/administrator/
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/calendar/
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/demo/
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/fortune/
++ http://10.10.51.24/squirrelmail/plugins/index.php (CODE:302|SIZE:0)
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/info/
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/test/
+==> DIRECTORY: http://10.10.51.24/squirrelmail/plugins/translate/
+
+---- Entering directory: http://10.10.51.24/squirrelmail/src/ ----
++ http://10.10.51.24/squirrelmail/src/index.php (CODE:302|SIZE:0)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/themes/ ----
+==> DIRECTORY: http://10.10.51.24/squirrelmail/themes/css/
++ http://10.10.51.24/squirrelmail/themes/index.php (CODE:302|SIZE:0)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/administrator/ ----
++ http://10.10.51.24/squirrelmail/plugins/administrator/index.php (CODE:302|SIZE:0)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/calendar/ ----
++ http://10.10.51.24/squirrelmail/plugins/calendar/index.php (CODE:302|SIZE:0)
++ http://10.10.51.24/squirrelmail/plugins/calendar/README (CODE:200|SIZE:887)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/demo/ ----
++ http://10.10.51.24/squirrelmail/plugins/demo/index.php (CODE:302|SIZE:0)
++ http://10.10.51.24/squirrelmail/plugins/demo/README (CODE:200|SIZE:837)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/fortune/ ----
++ http://10.10.51.24/squirrelmail/plugins/fortune/index.php (CODE:302|SIZE:0)
++ http://10.10.51.24/squirrelmail/plugins/fortune/README (CODE:200|SIZE:485)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/info/ ----
++ http://10.10.51.24/squirrelmail/plugins/info/index.php (CODE:302|SIZE:0)
++ http://10.10.51.24/squirrelmail/plugins/info/README (CODE:200|SIZE:1632)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/test/ ----
++ http://10.10.51.24/squirrelmail/plugins/test/index.php (CODE:302|SIZE:0)
++ http://10.10.51.24/squirrelmail/plugins/test/README (CODE:200|SIZE:505)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/plugins/translate/ ----
++ http://10.10.51.24/squirrelmail/plugins/translate/index.php (CODE:302|SIZE:0)
++ http://10.10.51.24/squirrelmail/plugins/translate/README (CODE:200|SIZE:1730)
+
+---- Entering directory: http://10.10.51.24/squirrelmail/themes/css/ ----
++ http://10.10.51.24/squirrelmail/themes/css/index.php (CODE:302|SIZE:0)
+
+-----------------
+END_TIME: Fri Jun 17 12:05:52 2022
+DOWNLOADED: 87628 - FOUND: 27
